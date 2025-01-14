@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update student record</title>
+    <link rel="stylesheet" href="bootstrap.css">
+   <link href="fontawesome.css" rel="stylesheet">
+   <link href="stylesheet.css" rel="stylesheet">
+   <script src="spinner.js"></script>
+</head>
+<body>
+
+
+
+    <div class="row pt-2 pb-2 m-1" id="div0936">
+     <div class="col-lg-12 border mb-2"  id="div0323">
+      
+     <h5 id="H563018" class=" p-1"  style="text-align: center; font-family: 'Trebuchet MS'; font-size: 30px;">Welcome to Demo App using NodeJs&nbsp;</h5>
+     <h6 id="H6514854" class=" p-1"  style="text-align: center; font-family: 'Trebuchet MS'; font-size: 20px;">Demo app using api developmental structure (client - api)</h6></div>
+     </div> 
+     <div class="col-lg-12 border" style="min-height: 400px;" id="div0723">
+        
+        <div class="card border-success border p-1 mx-auto my-3" style="max-width: 25rem;" id="DIV977201">
+  <div class="card-header bg-transparent border-success p-1" id="DIV718201" style="font-family: 'Trebuchet MS'; font-size: 20px;">Update&nbsp; Student&nbsp; Records</div>
+  <div class="card-body text-success p-1" id="DIV960201">
+    <form action="http://localhost:7000/update/" method="post" onsubmit="sendRequest(this,false); return false" id="updateForm">
+      <p id="error"></p>
+   <div class="mb-3 mt-3">
+    <label for="exampleInputName1" class="form-label">Full Name</label>
+    <input type="text" name="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" required>
+    <div id="nameHelp" class="form-text">We'll never share your name with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" name="emailAddress" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputAge1" class="form-label">Age</label>
+    <input type="number" class="form-control" id="exampleInputAge1" name="age" required>
+  </div>
+  <input type="hidden" id="_id" name="_id" required>
+  <button type="submit" class="btn btn-primary">Update</button>
+</form>
+  </div>
+</div>
+
+
+          
+        
+            
+        <p style="text-align: center; margin-top: 15px"> All Right Reserved By Demo App </p>
+          </div>
+          
+   
+    <script src="jquery.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="fontawesome.js"></script>
+    
+    <script src="formhandler.js"></script>
+    <script src="create.js"></script>
+    <script>
+      window.onload = function(){
+        addUpdateId();
+      }
+     </script>
+ </body>
+</html>
