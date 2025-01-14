@@ -29,7 +29,7 @@ function deleteFromServer(event){
     getRequest(url,(json)=>{
        
         alert(json.message);
-        window.location.href ="https://dordstream.github.io/NodePage/studentlist.html";
+        window.location.href ="/studentlist.html";
     });
   }
 
@@ -60,7 +60,7 @@ function setTableValue(children,obj,index){
        
        
        if(property =="_id" ){
-        let href = "https://dordstream.github.io/NodePage/update.html?id=";
+        let href = "/update.html?id=";
        row.setAttribute("data-id", data.toString());
      
        if(row.tagName == "A")
